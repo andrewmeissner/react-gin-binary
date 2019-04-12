@@ -5,11 +5,8 @@ import (
 	"strings"
 
 	assetfs "github.com/elazarl/go-bindata-assetfs"
-	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
 )
-
-const environment = "dev"
 
 type binaryFileSystem struct {
 	fs http.FileSystem
@@ -44,11 +41,7 @@ func BinaryFileSystem(root string) *binaryFileSystem {
 func main() {
 	router := gin.Default()
 
-	if environment == "dev" {
-		router.Use(static.Serve("/", static.LocalFile("ui/build", true)))
-	} else {
-		router.StaticFS("/", BinaryFileSystem("ui/build"))
-	}
+	router.StaticFS("/", BinaryFileSystem("ui/build"))
 
 	api := router.Group("/api")
 	{
