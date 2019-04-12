@@ -43,5 +43,5 @@ func main() {
 
 	router.StaticFS("/", BinaryFileSystem("ui/build"))
 
-	router.Run(":6969")
+	router.Run(":8080")
 }
