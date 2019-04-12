@@ -43,14 +43,5 @@ func main() {
 
 	router.StaticFS("/", BinaryFileSystem("ui/build"))
 
-	api := router.Group("/api")
-	{
-		api.GET("/", func(c *gin.Context) {
-			c.JSON(http.StatusOK, gin.H{
-				"message": "pong",
-			})
-		})
-	}
-
 	router.Run(":6969")
 }
