@@ -10,10 +10,14 @@ touch main.go
 
 npx create-react-app ui
 cd ui
-npm run build
+
+#  add "homepage": "http://localhost/ui" to package.json
+
+npm run build # or yarn build
 cd ..
-go-bindata-assetfs ui/build/...
+go-bindata-assetfs -o ui/bindata.go -pkg ui ui/build/...
 go build -o singleBinary .
+./singleBinary
 ```
 
 this uses contrib/static and implements a `BinaryFileSystem` to serve up the binary represented artifacts.

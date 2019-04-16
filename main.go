@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/andrewmeissner/react-gin-binary/ui"
 	assetfs "github.com/elazarl/go-bindata-assetfs"
 	"github.com/gin-gonic/gin"
 )
@@ -30,9 +31,9 @@ func (b *binaryFileSystem) Exists(prefix, filepath string) bool {
 func BinaryFileSystem(root string) *binaryFileSystem {
 	return &binaryFileSystem{
 		fs: &assetfs.AssetFS{
-			Asset:     Asset,
-			AssetDir:  AssetDir,
-			AssetInfo: AssetInfo,
+			Asset:     ui.Asset,
+			AssetDir:  ui.AssetDir,
+			AssetInfo: ui.AssetInfo,
 			Prefix:    root,
 		},
 	}
@@ -42,6 +43,10 @@ func main() {
 	router := gin.Default()
 
 	router.StaticFS("/ui", BinaryFileSystem("ui/build"))
+
+	router.GET("/", func(c *gin.Context) {
+		c.Redirect(http.StatusPermanentRedirect, "/ui")
+	})
 
 	api := router.Group("/api")
 	{
