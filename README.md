@@ -19,5 +19,3 @@ go-bindata-assetfs -o ui/bindata.go -pkg ui ui/build/...
 go build -o singleBinary .
 ./singleBinary
 ```
-
-this uses contrib/static and implements a `BinaryFileSystem` to serve up the binary represented artifacts.
