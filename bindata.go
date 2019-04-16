@@ -98,7 +98,7 @@ func uiBuildAssetManifestJson() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/asset-manifest.json", size: 815, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/asset-manifest.json", size: 815, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -138,7 +138,7 @@ func uiBuildIndexHtml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/index.html", size: 2080, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/index.html", size: 2080, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -178,7 +178,7 @@ func uiBuildPrecacheManifest23ad9ddd4fff16677c3caff3e43a3afcJs() (*asset, error)
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/precache-manifest.23ad9ddd4fff16677c3caff3e43a3afc.js", size: 624, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/precache-manifest.23ad9ddd4fff16677c3caff3e43a3afc.js", size: 624, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -198,7 +198,7 @@ func uiBuildServiceWorkerJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/service-worker.js", size: 1047, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/service-worker.js", size: 1047, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -218,7 +218,7 @@ func uiBuildStaticCssMain0fdc6636ChunkCss() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/css/main.0fdc6636.chunk.css", size: 1113, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/css/main.0fdc6636.chunk.css", size: 1113, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -238,7 +238,7 @@ func uiBuildStaticCssMain0fdc6636ChunkCssMap() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/css/main.0fdc6636.chunk.css.map", size: 3152, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/css/main.0fdc6636.chunk.css.map", size: 3152, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -258,7 +258,7 @@ func uiBuildStaticJs24b44abd2ChunkJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/js/2.4b44abd2.chunk.js", size: 120503, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/js/2.4b44abd2.chunk.js", size: 120503, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -278,7 +278,7 @@ func uiBuildStaticJs24b44abd2ChunkJsMap() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/js/2.4b44abd2.chunk.js.map", size: 345675, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/js/2.4b44abd2.chunk.js.map", size: 345675, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -298,7 +298,7 @@ func uiBuildStaticJsMain5f0a3357ChunkJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/js/main.5f0a3357.chunk.js", size: 1342, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/js/main.5f0a3357.chunk.js", size: 1342, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -318,7 +318,7 @@ func uiBuildStaticJsMain5f0a3357ChunkJsMap() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/js/main.5f0a3357.chunk.js.map", size: 7351, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/js/main.5f0a3357.chunk.js.map", size: 7351, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -338,7 +338,7 @@ func uiBuildStaticJsRuntimeMain6b966bd6Js() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/js/runtime~main.6b966bd6.js", size: 1505, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/js/runtime~main.6b966bd6.js", size: 1505, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -358,7 +358,7 @@ func uiBuildStaticJsRuntimeMain6b966bd6JsMap() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/js/runtime~main.6b966bd6.js.map", size: 7999, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/js/runtime~main.6b966bd6.js.map", size: 7999, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -378,7 +378,7 @@ func uiBuildStaticMediaLogo5d5d9eefSvg() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "ui/build/static/media/logo.5d5d9eef.svg", size: 2671, mode: os.FileMode(420), modTime: time.Unix(1555427799, 0)}
+	info := bindataFileInfo{name: "ui/build/static/media/logo.5d5d9eef.svg", size: 2671, mode: os.FileMode(420), modTime: time.Unix(1555428210, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
