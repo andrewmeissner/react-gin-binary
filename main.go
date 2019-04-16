@@ -41,7 +41,16 @@ func BinaryFileSystem(root string) *binaryFileSystem {
 func main() {
 	router := gin.Default()
 
-	router.StaticFS("/", BinaryFileSystem("ui/build"))
+	router.StaticFS("/ui", BinaryFileSystem("ui/build"))
+
+	api := router.Group("/api")
+	{
+		api.GET("/ping", func(c *gin.Context) {
+			c.JSON(http.StatusOK, gin.H{
+				"message": "pong",
+			})
+		})
+	}
 
 	router.Run(":8080")
 }
