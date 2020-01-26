@@ -1,4 +1,4 @@
-# Gin-React-Binary
+# React-Gin-Binary
 
 This is some scaffolding of how to package your react app inside a go binary
 
